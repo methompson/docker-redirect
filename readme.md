@@ -1,5 +1,5 @@
-# Docker Redirect
-## An HTTP redirection container
+# HTTP Redirect
+## An HTTP redirection docker container
 
 The purpose of this project is to provide a simple Docker container that runs Nginx that redirects HTTP requests to HTTPS. The configuration file does 1 operation: takes the request uri and provides a 301 redirection to the same uri with HTTPS.
 
